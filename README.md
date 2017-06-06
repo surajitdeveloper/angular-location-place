@@ -1,0 +1,1 @@
+This Project allowing location from user and also it included with google placeces api with google map integration
