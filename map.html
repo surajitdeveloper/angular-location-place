@@ -1,0 +1,10 @@
+    <div class="row" ng-init="confirmlocation=false" ng-controller="mapctrl">
+        <div class="col-md-12">
+            <places-map custom-callback="customCallbackFunction( pickedPlace )"></places-map>
+            <pre ng-click="confirmationok()" ng-show="confirmlocation">{{pickedPlace}}</pre>
+        </div>
+        <div class="col-sm-12">
+            <a href="#/">Home</a>
+        </div>
+    </div>
+

@@ -1,0 +1,16 @@
+<div ng-init="load_map()" ng-controller="homectrl">
+    <div class="row "><div class="col-sm-12 text"  id="display_result"></div></div>
+    <div class="row">
+        <div class="col-sm-6 col-2 text" id="display_extra_result"></div>
+        <div class="col-sm-6 col-2 text" id="result_part"></div>
+    </div>
+    <div class="row ">
+        <div class="col-sm-12 button-section">
+            <button class='left-button' onclick="localStorage.setalam = 0;">Alam</button><button onclick="localStorage.reminderlat ='undefined'; localStorage.reminderlng = 'undefined';" class="right-button">Clear Reminder Location</button>
+            <div style="display:none;" id="map_link" class="row footer-fixed"><a href="#map">Map</a></div>
+        </div>
+
+    </div>
+</div>
+
+
