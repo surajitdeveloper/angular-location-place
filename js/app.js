@@ -145,7 +145,13 @@ document.addEventListener("deviceready", onDeviceReady, false);
 				{
 				        jQuery("#display_extra_result").append("<br>Speed: "+speed+" M/sec");
                         var speedinkm = speed*3.6;
+                        jQuery("#progress").show();
+                        jQuery( "#progress" ).attr( "value", speedinkm);
                     	jQuery("#display_extra_result").append("<br>Speed: "+speedinkm+" Km/h<br>");
+				}
+				else
+				{
+				        jQuery("#progress").hide();
 				}
 				if(!isNaN(distkm))
 					{

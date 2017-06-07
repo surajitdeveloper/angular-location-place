@@ -109,3 +109,7 @@
         {
             height: 480px;
         }
+        #progress
+        {
+            display: none;
+        }
